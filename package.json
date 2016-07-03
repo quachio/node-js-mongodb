@@ -1,0 +1,23 @@
+{
+  "name": "node-js-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js MongoDB Tutorial using Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quachio/node-js-mongodb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoDB"
+  ],
+  "author": "Hung Quach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quachio/node-js-mongodb/issues"
+  },
+  "homepage": "https://github.com/quachio/node-js-mongodb#readme"
+}
