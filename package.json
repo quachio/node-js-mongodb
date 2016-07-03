@@ -2,9 +2,10 @@
   "name": "node-js-mongodb",
   "version": "1.0.0",
   "description": "Node.js MongoDB Tutorial using Mongoose",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/quachio/node-js-mongodb/issues"
   },
-  "homepage": "https://github.com/quachio/node-js-mongodb#readme"
+  "homepage": "https://github.com/quachio/node-js-mongodb#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3"
+  }
 }
